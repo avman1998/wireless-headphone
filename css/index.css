@@ -10,6 +10,7 @@
 
 body {
   height: 100vh;
+  min-width: 100%;
 }
 
 nav {
@@ -188,4 +189,106 @@ nav img:last-child {
 
 .action-btn:hover {
   cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 50px 0px 20px 0px;
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 50px 0px 20px 0px;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .intro-section .left-section h1 {
+    font-size: 320%;
+  }
+  .intro-section .left-section .sub-headlines {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .intro-section .left-section .text {
+    width: auto;
+    margin: 0px 5px;
+  }
+  .intro-section .left-section .action-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .intro-section .left-section .action-btns .action-btn {
+    margin-right: 0;
+  }
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-section .headphone-div img:last-child {
+    height: 350px;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+  .right-section .dots {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    top: 400px;
+  }
+  .right-section .cart-btn {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    margin: auto;
+  }
+  .right-section button {
+    position: absolute;
+    top: 470px;
+    left: 100px;
+    margin: 0px auto;
+    padding: 15px 30px;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+    font-size: 130%;
+    border-radius: 30px;
+  }
+  .right-section .headphone-div .discount {
+    display: none;
+  }
 }

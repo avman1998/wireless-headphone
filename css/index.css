@@ -251,6 +251,7 @@ nav img:last-child {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px 0px;
   }
   .right-section .headphone-div img:last-child {
     height: 350px;
@@ -265,12 +266,12 @@ nav img:last-child {
     align-items: center;
     left: 0;
     width: 100%;
-    top: 400px;
+    top: 440px;
   }
   .right-section .cart-btn {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     left: 0;
     width: 100%;
@@ -278,16 +279,15 @@ nav img:last-child {
   }
   .right-section button {
     position: absolute;
-    top: 470px;
+    top: 368px;
     left: 97px;
-    margin: 0px auto;
+
     padding: 15px 30px;
     color: white;
     background-color: var(--orange);
     border: none;
     font-size: 130%;
     border-radius: 30px;
-    margin-bottom: 10px;
   }
   .right-section .headphone-div .discount {
     display: none;
